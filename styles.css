@@ -1,0 +1,110 @@
+footer{
+  margin-left: 40%;
+  margin-right: 40%;
+  position: relative;
+  top: 8%;
+  font-size: 1.5em;
+  padding:0.5%;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #dfdfdf;
+}
+
+html, body{
+  height: 100%;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/tetris-blocks-cube-pattern-cro-design.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  width:45%;
+  margin: auto;
+  padding-bottom: 1.3%;
+  background-color: #dfdfdf;
+}
+
+p{
+  text-align: center;
+}
+
+
+
+.boardRow{
+  height:5%;
+}
+
+.col-sm{
+  padding: 0;
+}
+
+.score{
+  margin: auto;
+  font-family: 'Bree Serif', serif;
+  font-size:2.5rem;
+}
+
+.scoreBoard{
+  background-color: #dfdfdf;
+  position: relative;
+  bottom: 65%;
+  left: 26%;
+  border-style: solid;
+
+  width: 10%;
+  height: 16%;
+  margin: auto;
+  font-family: 'Bree Serif', serif;
+  font-size: 2.0rem;
+}
+
+
+.scoreLabel{
+  margin-bottom: 0;
+}
+
+
+
+.title{
+  padding-top: 15%;
+}
+
+
+/* TITLE COLORS */
+.tQ{color: #c85a5a}
+.tU{color: #c8985a}
+.t4{color: #f6e860}
+.tD{color: #5c795d}
+.tB{color: #5a81c8}
+.tL{color: #8c5ac8}
+.tO{color: #c85a5a}
+.tX{color: #c8985a}
+
+
+
+
+
+
+#startBtn{
+  position: relative;
+  top: 5%;
+  margin: auto;
+  margin-top:5%;
+  margin-bottom:10%;
+}
+
+
+#liveBoard{
+  height: 85%;
+  width: 26%;
+
+  position: relative;
+  top: 5%;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dfdfdf;
+  background-color: #3b2e5a;
+}
