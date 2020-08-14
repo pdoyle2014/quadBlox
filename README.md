@@ -1,5 +1,5 @@
 # quadBlox
-After developing browser-based versions of a card matching game and a SIMON game, I decided to pursue a game with more rich animation and more complex logic. 
+After developing browser-based versions of a card matching game and a SIMON game, I decided to pursue a game with richer animation and more complex logic. 
 Tetris was an obvious choice, since I enjoy playing it so much! 
 Quad Blox is my version of Tetris, the iconic brick-stacking game.
 
