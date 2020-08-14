@@ -4,10 +4,10 @@ Tetris was an obvious choice, since I enjoy playing it so much!
 Quad Blox is my version of Tetris, the iconic brick-stacking game.
 
 Quad Blox is powered by JavaScript logic and DOM manipulation. 
-The game board is divided into an array of columns within Bootstrap rows.
-Programtically, the status of the gameboard is saved in an array of arrays, where each row on the game board gets its own array.
-Each time a piece falls one space toward the bottom, the elements within the game board changed color to represent this change to the user.
-Simultaneously, the state variable changes to reflect the current position of the piece.
+The game board is represented by columns within Bootstrap rows.
+Programtically, the status of the gameboard is saved in an array of arrays, where each row on the game board gets its own array, and each cell in the game board gets its own position in that array.
+Each time a piece falls one space toward the bottom, the elements within the game board change color to represent this change to the user.
+Simultaneously, the state variable changes to reflect the change in current position of the piece.
 
 With each "tick" of the clock, the game piece falls one level.
 At that point, the JavaScript logic checks to see whether the space below is clear.
